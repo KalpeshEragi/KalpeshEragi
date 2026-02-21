@@ -4,17 +4,11 @@
 💻 I build scalable full-stack applications and AI-powered platforms focused on solving practical problems.
 
 💰 FinanceHub (Flagship Project) — AI-powered personal finance platform built with Next.js, Node.js, MongoDB & Python FastAPI AI engine, supporting transaction tracking, budgeting, investments, tax planning, PDF statement parsing, and future financial simulations.
-
 🌿 PublicSeva — MERN + Gemini AI civic reporting platform with AI severity scoring, interactive maps, and real-time issue tracking.
-
 🧠 MetaPDF — AI document assistant for PDF chat, summarization, and file conversion.
-
 🔧 Contributing to the FCRIT Placement Cell website, improving a legacy PHP system with real feature implementations and UI fixes.
-
 🌐 Tech: Next.js • React • Node.js • Express • MongoDB • FastAPI • Python • TypeScript • REST APIs • JWT • Cloudinary • Gemini AI
-
 📌 Passionate about building impactful software, learning continuously, and collaborating on meaningful projects.<br>
-
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kalpesh_eragi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/kalpesh-eragi-72562031a/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kalpesheragi@gmail.com) 
