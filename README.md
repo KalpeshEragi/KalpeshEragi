@@ -1,5 +1,19 @@
 # 💫 About Me:
-## 👋 Hi, I'm a Developer passionate about AI, Full-Stack Systems & Real-World Problem Solving<br><br>💻 I build scalable full-stack applications and AI-powered platforms focused on solving practical, real-world problems.<br><br>💰 **Flagship Project — FinanceHub**<br>An **AI-powered personal finance intelligence platform** built with **Next.js, Node.js, MongoDB, and a Python FastAPI AI engine**, helping users track transactions, manage budgets, monitor investments, plan taxes, and simulate future financial scenarios using a deterministic, explainable intelligence system.<br>Features include PDF bank statement parsing, smart alerts, digital financial twin simulation, goal planning, portfolio tracking, and India-specific tax estimation.<br><br>🌿 **PublicSeva**<br>A civic issue reporting platform built using the **MERN Stack + Gemini AI**, enabling communities to report waste hotspots while authorities prioritize and resolve them through AI-powered severity scoring, interactive maps, and real-time tracking.<br><br>🧠 **MetaPDF**<br>An AI-powered document assistant that allows users to chat with PDFs, summarize content, and convert multiple file formats into PDFs.<br><br>🔧 Currently contributing to the **FCRIT Placement Cell website**, improving a legacy PHP system by fixing bugs, enhancing usability, and implementing real feature requests from the placement team.<br><br>🌐 Tech I work with:<br>**Next.js • React • Node.js • Express • MongoDB • FastAPI • Python • TypeScript • JavaScript • REST APIs • JWT Auth • Cloudinary • Gemini AI**<br><br>📌 I enjoy designing intelligent systems, building impactful software, and continuously learning new technologies while collaborating on meaningful projects.<br>
+## 👋 Hi, I'm a Developer passionate about AI, Full-Stack Systems & Real-World Problem Solving
+
+💻 I build scalable full-stack applications and AI-powered platforms focused on solving practical problems.
+
+💰 FinanceHub (Flagship Project) — AI-powered personal finance platform built with Next.js, Node.js, MongoDB & Python FastAPI AI engine, supporting transaction tracking, budgeting, investments, tax planning, PDF statement parsing, and future financial simulations.
+
+🌿 PublicSeva — MERN + Gemini AI civic reporting platform with AI severity scoring, interactive maps, and real-time issue tracking.
+
+🧠 MetaPDF — AI document assistant for PDF chat, summarization, and file conversion.
+
+🔧 Contributing to the FCRIT Placement Cell website, improving a legacy PHP system with real feature implementations and UI fixes.
+
+🌐 Tech: Next.js • React • Node.js • Express • MongoDB • FastAPI • Python • TypeScript • REST APIs • JWT • Cloudinary • Gemini AI
+
+📌 Passionate about building impactful software, learning continuously, and collaborating on meaningful projects.<br>
 
 
 ## 🌐 Socials:
