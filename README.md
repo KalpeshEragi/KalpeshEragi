@@ -46,7 +46,7 @@ class KalpeshEragi:
 > Traditional MRP/ERP systems run one **centralized planner**. This project distributes manufacturing-planning decisions across **autonomous AI agents** — Production Planning, Inventory and Purchasing — that **negotiate over the A2A protocol** to turn a customer order into a feasible plan, and **re-negotiate** when disruptions hit.
 
 ```mermaid
-flowchart LR
+flowchart TB
     O([📦 Customer Order]) --> P
 
     subgraph AGENTS["🤖 Autonomous Agents · OpenAI Agents SDK"]
@@ -253,10 +253,6 @@ flowchart LR
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KalpeshEragi&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
 <!-- Snake animation: generated daily by .github/workflows/snake.yml into the `output` branch -->
