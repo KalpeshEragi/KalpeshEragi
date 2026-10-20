@@ -56,20 +56,24 @@ class KalpeshEragi:
 
 ```mermaid
 flowchart LR
-    O([📦 Order]) --> P
+    O([📦 Customer Order]) --> AG
+    subgraph SUP["🧰 Shared services"]
+      direction TB
+      MRP[(🧮 MRPII Engine)]
+      LLM[🧠 Ollama · Qwen]
+      SIM[⚡ Disruptions]
+    end
     subgraph AG["🤖 Autonomous Agents · A2A"]
       direction TB
       P[🗓️ Planning] -- requirements --> I[📦 Inventory]
       I -- shortage --> U[🛒 Purchasing]
     end
-    U <-- "≤ 3 rounds" --> S[[🏢 Supplier]]
-    U -- agreement --> V{✅ Validate}
+    SUP -.-> AG
+    AG <-- "≤ 3 rounds" --> S[[🏢 Supplier]]
+    AG -- agreement --> V{✅ Validate}
     V --> H{👤 Approve}
     H -- yes --> C([✔ COMMIT])
-    H -. reject → replan .-> P
-    SIM[⚡ Disruptions] -.-> AG
-    LLM[🧠 Ollama · Qwen] -.-> AG
-    MRP[(🧮 MRPII Engine)] <--> AG
+    H -. reject → replan .-> AG
 ```
 
 <table>
