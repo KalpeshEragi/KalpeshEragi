@@ -13,7 +13,7 @@
   <a href="https://www.linkedin.com/in/kalpesh-eragi-72562031a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:kalpesheragi@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://instagram.com/kalpesh_eragi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=KalpeshEragi&style=for-the-badge&color=7F5AF0&label=PROFILE+VIEWS"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=KalpeshEragi.KalpeshEragi&left_color=gray&right_color=%237F5AF0&left_text=Profile%20Views"/>
 </p>
 
 ---
