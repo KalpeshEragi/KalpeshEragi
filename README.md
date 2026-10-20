@@ -54,27 +54,9 @@ class KalpeshEragi:
 
 > No central planner: **autonomous AI agents negotiate over A2A** to turn a customer order into a feasible manufacturing plan, and **re-negotiate** when disruptions hit.
 
-```mermaid
-flowchart LR
-    O([📦 Customer Order]) --> AG
-    subgraph SUP["🧰 Shared services"]
-      direction TB
-      MRP[(🧮 MRPII Engine)]
-      LLM[🧠 Ollama · Qwen]
-      SIM[⚡ Disruptions]
-    end
-    subgraph AG["🤖 Autonomous Agents · A2A"]
-      direction TB
-      P[🗓️ Planning] -- requirements --> I[📦 Inventory]
-      I -- shortage --> U[🛒 Purchasing]
-    end
-    SUP -.-> AG
-    AG <-- "≤ 3 rounds" --> S[[🏢 Supplier]]
-    AG -- agreement --> V{✅ Validate}
-    V --> H{👤 Approve}
-    H -- yes --> C([✔ COMMIT])
-    H -. reject → replan .-> AG
-```
+<p align="center">
+  <img src="assets/mrpii-architecture.svg" width="100%" alt="Decentralized MRPII architecture: Planning, Inventory and Purchasing agents negotiating over A2A"/>
+</p>
 
 <table>
 <tr>
