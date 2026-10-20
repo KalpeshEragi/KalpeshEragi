@@ -32,6 +32,15 @@ class KalpeshEragi:
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KalpeshEragi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="165" src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
 ## 🏆 Flagship Project
 
 <h3 align="center">🏭 Decentralized MRPII — A Negotiating Multi-Agent Architecture</h3>
@@ -40,60 +49,48 @@ class KalpeshEragi:
   <a href="https://github.com/KalpeshEragi/Decentralized-MRPII-System-Using-a-Negotiating-Multi-Agent-Architecture-"><img src="https://img.shields.io/badge/Repo-View_on_GitHub-181717?style=flat-square&logo=github"/></a>
   <img src="https://img.shields.io/badge/Status-Active_Development-7F5AF0?style=flat-square"/>
   <img src="https://img.shields.io/badge/Agents-3_Autonomous-00C2A8?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LLM-Qwen_via_Ollama_(local)-000000?style=flat-square&logo=ollama"/>
+  <img src="https://img.shields.io/badge/LLM-Qwen_via_Ollama-000000?style=flat-square&logo=ollama"/>
 </p>
 
-> Traditional MRP/ERP systems run one **centralized planner**. This project distributes manufacturing-planning decisions across **autonomous AI agents** — Production Planning, Inventory and Purchasing — that **negotiate over the A2A protocol** to turn a customer order into a feasible plan, and **re-negotiate** when disruptions hit.
+> No central planner: **autonomous AI agents negotiate over A2A** to turn a customer order into a feasible manufacturing plan, and **re-negotiate** when disruptions hit.
 
 ```mermaid
-flowchart TB
-    O([📦 Customer Order]) --> P
-
-    subgraph AGENTS["🤖 Autonomous Agents · OpenAI Agents SDK"]
-      P[🗓️ Production Planning<br/>MPS · MRP · priorities]
-      I[📦 Inventory<br/>availability · safety stock]
-      U[🛒 Purchasing<br/>supplier evaluation]
+flowchart LR
+    O([📦 Order]) --> P
+    subgraph AG["🤖 Autonomous Agents · A2A"]
+      direction TB
+      P[🗓️ Planning] -- requirements --> I[📦 Inventory]
+      I -- shortage --> U[🛒 Purchasing]
     end
-
-    P -- material requirements --> I
-    I -- "shortage → REQUEST (A2A)" --> U
-    U <-- "OFFER / COUNTER_OFFER<br/>≤ 3 rounds" --> S[[🏢 Supplier Interface]]
-    U -- "AGREEMENT_PROPOSED / FAILED" --> P
-
-    P --> V{✅ Deterministic<br/>Validation}
-    V --> H{👤 Human Approval}
-    H -- approve --> C([COMMIT · Plan Executed])
-    H -- reject --> P
-
-    SIM[⚡ Scenario Manager<br/>delay · demand spike · due-date change] -. injects disruption .-> AGENTS
-
-    MRP[(🧮 Deterministic MRPII Engine<br/>BOM · MPS · MRP netting · capacity)] <--> AGENTS
-    LLM[🧠 Ollama · Qwen<br/>reasoning only] -. structured proposals .-> AGENTS
-    DB[(🐘 PostgreSQL · Neon<br/>10 logical schemas)] <--> MRP
+    U <-- "≤ 3 rounds" --> S[[🏢 Supplier]]
+    U -- agreement --> V{✅ Validate}
+    V --> H{👤 Approve}
+    H -- yes --> C([✔ COMMIT])
+    H -. reject → replan .-> P
+    SIM[⚡ Disruptions] -.-> AG
+    LLM[🧠 Ollama · Qwen] -.-> AG
+    MRP[(🧮 MRPII Engine)] <--> AG
 ```
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🧠 What makes it interesting**
-- **No central decision-maker** — each agent owns its goals, constraints, offer history and decisions; the negotiation engine only routes, validates and persists
-- **Multi-factor negotiation** — quantity, required date, delivery / lead time, inventory impact and priority (not price-only)
-- **LLM is advisory, not authoritative** — every LLM output is parsed into a schema and validated deterministically before it can touch state
-- **Bounded & safe** — max 3 supplier rounds, max 2 replanning attempts, explicit `FAILED` status, human approval before `COMMIT`
+**🧠 Key ideas**
+- **No central decision-maker:** each agent owns its own goals and decisions
+- **Multi-factor negotiation:** quantity, dates, lead time, priority
+- **LLM advises, never decides:** outputs are validated deterministically
+- **Bounded:** ≤ 3 rounds, ≤ 2 replans, human approval before `COMMIT`
 
 </td>
 <td width="50%" valign="top">
 
-**⚡ What-if disruption scenarios**
-| # | Disruption | Agents re-negotiate |
-|---|---|---|
-| 1 | 1,000-unit SmartPhone X1 order | baseline plan |
-| 2 | Supplier delivery delay | revised schedule |
-| 3 | Demand 1,000 → 1,300 | extra procurement |
-| 4 | Supplier qty 500 → 300 | alternate supply |
-| 6 | Inventory reservation change | re-allocation |
-| 7 | Due date 30 → 20 days | compressed plan |
+**⚡ What-if disruptions**
+- 📦 1,000-unit SmartPhone X1 baseline order
+- 🚚 Supplier delay · supplier qty 500 → 300
+- 📈 Demand 1,000 → 1,300
+- 🔒 Inventory reservation change
+- ⏱️ Due date 30 → 20 days
 
 </td>
 </tr>
@@ -103,12 +100,9 @@ flowchart TB
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=flat-square&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/A2A_Protocol-4285F4?style=flat-square&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL_(Neon)-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Alembic-6BA81E?style=flat-square"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
 </p>
 
 ---
@@ -244,15 +238,10 @@ flowchart LR
 
 ---
 
-## 📊 GitHub Analytics
+## 💻 Languages & Contributions
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KalpeshEragi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KalpeshEragi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KalpeshEragi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 </p>
 
 <!-- Snake animation: generated daily by .github/workflows/snake.yml into the `output` branch -->
