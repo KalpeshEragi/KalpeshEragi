@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0c29"/><stop offset=".55" stop-color="#1b1640"/><stop offset="1" stop-color="#302b63"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#7F5AF0" stop-opacity=".35"/><stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/></radialGradient></defs>
+<rect width="900" height="380" rx="16" fill="url(#bg)"/>
+<ellipse cx="450" cy="182" rx="170" ry="80" fill="url(#glow)"/>
+<text x="24" y="32" fill="#a5a3c8" font-size="13" letter-spacing="2">DECENTRA · NO CENTRAL ORCHESTRATOR · AGENTS NEGOTIATE OVER A2A</text>
+<line x1="450" y1="70" x2="701" y2="126" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="450" y1="70" x2="701" y2="238" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="450" y1="70" x2="450" y2="294" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="450" y1="70" x2="199" y2="238" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="450" y1="70" x2="199" y2="126" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="126" x2="701" y2="238" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="126" x2="450" y2="294" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="126" x2="199" y2="238" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="126" x2="199" y2="126" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="238" x2="450" y2="294" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="238" x2="199" y2="238" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="701" y1="238" x2="199" y2="126" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="450" y1="294" x2="199" y2="238" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="450" y1="294" x2="199" y2="126" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<line x1="199" y1="238" x2="199" y2="126" stroke="#7F5AF0" stroke-opacity=".16" stroke-width="1.2"/>
+<path id="p0" d="M450,70 L701,126" stroke="#2CB67D" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="0s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#2CB67D" opacity="0"><animateMotion dur="4.8s" begin="0s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p0"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="0s" repeatCount="indefinite"/></circle>
+<path id="p1" d="M701,126 L701,238" stroke="#7F5AF0" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="0.6s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#7F5AF0" opacity="0"><animateMotion dur="4.8s" begin="0.6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+<path id="p2" d="M701,126 L450,294" stroke="#FFD166" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="1.2s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#FFD166" opacity="0"><animateMotion dur="4.8s" begin="1.2s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="1.2s" repeatCount="indefinite"/></circle>
+<path id="p3" d="M701,126 L199,126" stroke="#00C2FF" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="1.8s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#00C2FF" opacity="0"><animateMotion dur="4.8s" begin="1.8s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="1.8s" repeatCount="indefinite"/></circle>
+<path id="p4" d="M701,238 L199,238" stroke="#2CB67D" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#2CB67D" opacity="0"><animateMotion dur="4.8s" begin="2.4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p4"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></circle>
+<path id="p5" d="M450,294 L450,70" stroke="#FF8906" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="3s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#FF8906" opacity="0"><animateMotion dur="4.8s" begin="3s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p5"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="3s" repeatCount="indefinite"/></circle>
+<path id="p6" d="M199,126 L199,238" stroke="#00C2FF" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="3.6s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#00C2FF" opacity="0"><animateMotion dur="4.8s" begin="3.6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p6"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="3.6s" repeatCount="indefinite"/></circle>
+<path id="p7" d="M199,238 L450,70" stroke="#FFD166" stroke-opacity="0" stroke-width="2" fill="none"><animate attributeName="stroke-opacity" values="0;.55;0" dur="4.8s" begin="4.2s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#FFD166" opacity="0"><animateMotion dur="4.8s" begin="4.2s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.35;1" calcMode="linear"><mpath href="#p7"/></animateMotion><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.33;.36;1" dur="4.8s" begin="4.2s" repeatCount="indefinite"/></circle>
+<g><rect x="388" y="50" width="124" height="40" rx="20" fill="#16132f" stroke="#7F5AF0" stroke-width="1.5"><animate attributeName="stroke" values="#7F5AF0;#2CB67D;#7F5AF0" dur="4.8s" begin="0.0s" repeatCount="indefinite"/></rect>
+<text x="450" y="75" text-anchor="middle" fill="#fffffe" font-size="15" font-weight="600">🛒 Sales</text></g>
+<g><rect x="639" y="106" width="124" height="40" rx="20" fill="#16132f" stroke="#7F5AF0" stroke-width="1.5"><animate attributeName="stroke" values="#7F5AF0;#2CB67D;#7F5AF0" dur="4.8s" begin="0.8s" repeatCount="indefinite"/></rect>
+<text x="701" y="131" text-anchor="middle" fill="#fffffe" font-size="15" font-weight="600">🗓️ Planning</text></g>
+<g><rect x="639" y="218" width="124" height="40" rx="20" fill="#16132f" stroke="#7F5AF0" stroke-width="1.5"><animate attributeName="stroke" values="#7F5AF0;#2CB67D;#7F5AF0" dur="4.8s" begin="1.6s" repeatCount="indefinite"/></rect>
+<text x="701" y="243" text-anchor="middle" fill="#fffffe" font-size="15" font-weight="600">📦 Inventory</text></g>
+<g><rect x="388" y="274" width="124" height="40" rx="20" fill="#16132f" stroke="#7F5AF0" stroke-width="1.5"><animate attributeName="stroke" values="#7F5AF0;#2CB67D;#7F5AF0" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></rect>
+<text x="450" y="299" text-anchor="middle" fill="#fffffe" font-size="15" font-weight="600">🚚 Purchasing</text></g>
+<g><rect x="137" y="218" width="124" height="40" rx="20" fill="#16132f" stroke="#7F5AF0" stroke-width="1.5"><animate attributeName="stroke" values="#7F5AF0;#2CB67D;#7F5AF0" dur="4.8s" begin="3.2s" repeatCount="indefinite"/></rect>
+<text x="199" y="243" text-anchor="middle" fill="#fffffe" font-size="15" font-weight="600">🏭 Warehouse</text></g>
+<g><rect x="137" y="106" width="124" height="40" rx="20" fill="#16132f" stroke="#7F5AF0" stroke-width="1.5"><animate attributeName="stroke" values="#7F5AF0;#2CB67D;#7F5AF0" dur="4.8s" begin="4.0s" repeatCount="indefinite"/></rect>
+<text x="199" y="131" text-anchor="middle" fill="#fffffe" font-size="15" font-weight="600">👷 HR</text></g>
+<text x="450" y="166" text-anchor="middle" fill="#a5a3c8" font-size="12" letter-spacing="3">PROTOCOL</text>
+<text x="450" y="198" text-anchor="middle" fill="#00C2FF" font-size="26" font-weight="700" opacity="0">quote<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.23;0.25;1" dur="6s" repeatCount="indefinite"/></text>
+<text x="450" y="198" text-anchor="middle" fill="#FFD166" font-size="26" font-weight="700" opacity="0">offer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.270;0.480;0.500;1" dur="6s" repeatCount="indefinite"/></text>
+<text x="450" y="198" text-anchor="middle" fill="#FF8906" font-size="26" font-weight="700" opacity="0">24 h hold<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.520;0.730;0.750;1" dur="6s" repeatCount="indefinite"/></text>
+<text x="450" y="198" text-anchor="middle" fill="#2CB67D" font-size="26" font-weight="700" opacity="0">commit ✓<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.98;1" dur="6s" repeatCount="indefinite"/></text>
+<text x="110" y="348" text-anchor="middle" fill="#fffffe" font-size="20" font-weight="700">100<tspan fill="#a5a3c8" font-size="13" font-weight="400" dx="6">orders</tspan></text>
+<text x="265" y="348" text-anchor="middle" fill="#fffffe" font-size="20" font-weight="700">1,300<tspan fill="#a5a3c8" font-size="13" font-weight="400" dx="6">quotes</tspan></text>
+<text x="435" y="348" text-anchor="middle" fill="#fffffe" font-size="20" font-weight="700">97<tspan fill="#a5a3c8" font-size="13" font-weight="400" dx="6">deals committed</tspan></text>
+<text x="620" y="348" text-anchor="middle" fill="#fffffe" font-size="20" font-weight="700">0<tspan fill="#a5a3c8" font-size="13" font-weight="400" dx="6">double-bookings</tspan></text>
+<text x="790" y="348" text-anchor="middle" fill="#fffffe" font-size="20" font-weight="700">95%<tspan fill="#a5a3c8" font-size="13" font-weight="400" dx="6">on time</tspan></text>
+<line x1="24" y1="322" x2="876" y2="322" stroke="#7F5AF0" stroke-opacity=".25"/>
+</svg>
