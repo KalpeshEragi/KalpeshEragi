@@ -1,11 +1,11 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:7F5AF0&height=220&section=header&text=Kalpesh%20Eragi&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Systems%20%E2%80%A2%20Agentic%20AI%20%E2%80%A2%20Full-Stack%20Engineering&descAlignY=58&descSize=18" width="100%" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:7F5AF0&height=240&section=header&text=Kalpesh%20Eragi&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%2FML%20Engineer%20%E2%80%A2%20Building%20and%20Evaluating%20LLM%20Systems&descAlignY=60&descSize=18" width="100%" alt="header"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalpeshEragi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=7F5AF0&center=true&vCenter=true&width=760&lines=Building+autonomous+multi-agent+systems+%F0%9F%A4%96;Multi-agent+RAG+%E2%80%A2+Semantic+search+%E2%80%A2+LLM+orchestration;Deterministic+core+%2B+LLM+reasoning+%3D+trustworthy+AI;Next.js+%E2%80%A2+FastAPI+%E2%80%A2+Node.js+%E2%80%A2+PostgreSQL+%E2%80%A2+MongoDB" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=7F5AF0&center=true&vCenter=true&width=780&lines=Multi-agent+systems+that+negotiate+%F0%9F%A4%9D;Hybrid+RAG+%E2%80%A2+Reranking+%E2%80%A2+Hallucination+detection;If+it+isn't+measured%2C+it+isn't+done+%F0%9F%93%8F;LangGraph+%E2%80%A2+CrewAI+%E2%80%A2+smolagents+%E2%80%A2+A2A+%E2%80%A2+Ollama" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -22,73 +22,43 @@
 
 ```python
 class KalpeshEragi:
-    role       = "AI Systems & Full-Stack Developer"
-    focus      = ["Agentic AI", "Multi-Agent Systems", "RAG Pipelines", "Semantic Search"]
-    building   = "Decentralized MRPII — LLM agents that negotiate a manufacturing plan"
-    principle  = "Keep business truth deterministic. Let the LLM reason, never decide state."
-    also_doing = "Shipping real features on the FCRIT Placement Cell site (legacy PHP)"
-    open_to    = ["Internships", "Research collaborations", "Hackathons"]
+    role       = "AI/ML Engineer — building and evaluating LLM systems"
+    education  = "B.Tech Computer Engineering (Honors in AI/ML) @ FCRIT · CGPA 9.42"
+    focus      = ["Multi-Agent Systems", "Hybrid RAG", "LLM Evaluation", "Hallucination Detection"]
+    recently   = {
+        "eMerging Open Tech Foundation": "Project Intern — Decentra (Jul–Oct 2026)",
+        "FCRIT":                          "Research Intern — Patently (Dec 2025–Mar 2026)",
+        "Victor & Co.":                   "Web Dev Intern — B2B logistics site (Jan–Apr 2026)",
+    }
+    certified  = "Hugging Face Agents Course — Certificate of Excellence (Oct 2026)"
+    principle  = "LLM proposes, code validates, a rule-based fallback keeps it correct."
+    open_to    = ["AI/ML Internships", "Research collaborations", "Hackathons"]
 ```
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KalpeshEragi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="165" src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🏆 Flagship Project
-
-<h3 align="center">🏭 Decentralized MRPII — A Negotiating Multi-Agent Architecture</h3>
+## 🏆 Flagship · Decentra — a factory run by negotiating AI agents
 
 <p align="center">
   <a href="https://github.com/KalpeshEragi/Decentralized-MRPII-System-Using-a-Negotiating-Multi-Agent-Architecture-"><img src="https://img.shields.io/badge/Repo-View_on_GitHub-181717?style=flat-square&logo=github"/></a>
-  <img src="https://img.shields.io/badge/Status-Active_Development-7F5AF0?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Agents-3_Autonomous-00C2A8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Built_at-eMerging_Open_Tech_Foundation-7F5AF0?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Agents-6_Autonomous-00C2A8?style=flat-square"/>
   <img src="https://img.shields.io/badge/LLM-Qwen_via_Ollama-000000?style=flat-square&logo=ollama"/>
 </p>
 
-> No central planner: **autonomous AI agents negotiate over A2A** to turn a customer order into a feasible manufacturing plan, and **re-negotiate** when disruptions hit.
-
 <p align="center">
-  <img src="assets/mrpii-architecture.svg" width="100%" alt="Decentralized MRPII architecture: Planning, Inventory and Purchasing agents negotiating over A2A"/>
+  <img src="assets/decentra-agents.svg" width="100%" alt="Animated: six Decentra agents negotiating over A2A — quote, offer, 24h hold, commit"/>
 </p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🧠 Key ideas**
-- **No central decision-maker:** each agent owns its own goals and decisions
-- **Multi-factor negotiation:** quantity, dates, lead time, priority
-- **LLM advises, never decides:** outputs are validated deterministically
-- **Bounded:** ≤ 3 rounds, ≤ 2 replans, human approval before `COMMIT`
-
-</td>
-<td width="50%" valign="top">
-
-**⚡ What-if disruptions**
-- 📦 1,000-unit SmartPhone X1 baseline order
-- 🚚 Supplier delay · supplier qty 500 → 300
-- 📈 Demand 1,000 → 1,300
-- 🔒 Inventory reservation change
-- ⏱️ Due date 30 → 20 days
-
-</td>
-</tr>
-</table>
+> Six agents each own their data and negotiate delivery dates over **A2A** — no central orchestrator. **Zero double-bookings across 36 runs**, Kafka replaced by a **PostgreSQL outbox** (727 events, 0 failures), and it handles 4 disruptions a classic **MRP II** baseline can't replan.
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=flat-square&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/A2A_Protocol-4285F4?style=flat-square&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL_(Neon)-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"/>
 </p>
 
 ---
@@ -100,134 +70,94 @@ class KalpeshEragi:
 <td width="50%" valign="top">
 
 ### 🎓 [PlaceMates](https://github.com/KalpeshEragi/PlaceMates)
-AI placement platform that builds an **authentic** profile from your GitHub, LinkedIn and resume — then finds, ranks and applies to jobs.
+AI placement assistant for Indian freshers — finds jobs daily and emails tailored resumes for the top 3.
 
-- 🤖 **Multi-agent RAG** resume pipeline: Retriever → Drafter → Critic, iterative refinement
-- 🔀 **Multi-LLM router** — Groq, Gemini, OpenAI, Cerebras, Together, Ollama with fallback
-- 🔍 **Semantic job matching** — SentenceTransformers + FAISS + ChromaDB
-- ⚙️ **n8n + Apify** automated job discovery → top-match selection
-- 📊 Ablation & evaluation harness for RAG / critic / iteration
+- LangGraph interview agent + hybrid ranking: **Precision@3 33% → 67%**
+- 4-agent CrewAI pipeline: **−72% hallucinated claims**, **−50% tokens**
 
-<img src="https://img.shields.io/badge/Next.js_15-000?style=flat-square&logo=nextdotjs"/> <img src="https://img.shields.io/badge/Express-404d59?style=flat-square&logo=express"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma"/> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain"/> <img src="https://img.shields.io/badge/CrewAI-FF5A50?style=flat-square"/> <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square"/>
+
+</td>
+<td width="50%" valign="top">
+
+### ⚖️ [Patently](https://github.com/KalpeshEragi/nlp-based-computational-analysis-of-patent-novelty)
+Patent novelty analysis over **100K patents** with evidence-backed novelty & inventive-step reports.
+
+- PatentSBERTa CPC classifier: **95.2%** top-5 on unseen patents
+- Cross-encoder + SHAP leak fix: **87.2% recall** on rejected claims
+
+<img src="https://img.shields.io/badge/PatentSBERTa-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/SHAP-7F5AF0?style=flat-square"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📑 [MetaPDF](https://github.com/KalpeshEragi/MetaPDF)
+Evaluated hybrid RAG for PDF Q&A — BM25 + dense + RRF, cross-encoder reranking, page citations.
+
+- Retrieval accuracy **71% → 94%**, input tokens **−74%**
+- Local NLI detector: unsupported answers **50% → 20%**
+
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask"/>
 
 </td>
 <td width="50%" valign="top">
 
 ### 💰 [FinanceHub](https://github.com/KalpeshEragi/FinanceHub-A-Multi-Agent-AI-Platform-for-Personalised-Financial-Intelligence)
-AI-powered personal finance command center — track, budget, invest, plan taxes and simulate your financial future.
+Multi-agent personal finance platform — bank-statement parsing, India tax engine and a "what-if" financial twin.
 
-- 🪞 **Digital Financial Twin** — "what-if" future simulation
-- 📄 **PDF bank-statement parsing** → categorized transactions
-- 🧮 India tax engine (old vs new regime) + ITR form suggester
-- 🧠 11 explainable AI services: budget agent, credit analysis, investment-readiness gate, smart alerts
-- 🔐 JWT + HTTP-only cookies, dark mode, 57 Radix UI primitives
-
-<img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs"/> <img src="https://img.shields.io/badge/Express_5-404d59?style=flat-square&logo=express"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚖️ [Patent Novelty Analyzer](https://github.com/KalpeshEragi/nlp-based-computational-analysis-of-patent-novelty)
-NLP inference engine that quantitatively judges whether a patent claim is **inventive** against prior art.
-
-- 🧩 spaCy claim parsing into components (nouns) & functions (verbs)
-- 📐 MiniLM embeddings + cosine Top-K prior-art ranking
-- ⚖️ Rule-based verdicts: `INVENTIVE` / `WEAK INVENTIVE` / `NOT INVENTIVE`
-- 🕸️ Bipartite knowledge graphs (NetworkX) + Gemini legal summaries
-
-<img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white"/> <img src="https://img.shields.io/badge/SentenceTransformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/NetworkX-2C5BB4?style=flat-square"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 📑 [MetaPDF](https://github.com/KalpeshEragi/MetaPDF)
-AI document assistant — chat with PDFs, summarize them, and convert Office files to PDF.
-
-- 💬 **RAG chat** over PDFs — LangChain + FAISS + Gemini
-- 📝 Abstractive summaries with **BART-large-CNN** (beam search, chunked)
-- 🔄 DOCX / PPT / Excel / TXT → PDF converters
-- ⚡ GPU-accelerated with PyTorch + CUDA
-
-<img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain"/> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/HF_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌿 [PublicSeva](https://github.com/KalpeshEragi/PublicSeva)
-Civic issue reporting platform with **Gemini AI severity scoring**, interactive maps and real-time issue tracking.
-
-<img src="https://img.shields.io/badge/MERN-47A248?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🏋️ [FITFUSION](https://github.com/KalpeshEragi/FITFUSIONN)
-Android fitness app — Gemini AI coach, ML nutrition/TDEE predictor, nearby-gym finder (OSM + Overpass), offline-first sync.
-
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/> <img src="https://img.shields.io/badge/Room-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>🔬 Peek inside PlaceMates' AI pipeline</b></summary>
+<summary><b>➕ More builds</b></summary>
 <br/>
 
-```mermaid
-flowchart LR
-    A[GitHub · LinkedIn · Resume] --> B[Profile Builder<br/>+ user validation]
-    N[n8n + Apify<br/>job discovery] --> E[Job embeddings<br/>MiniLM]
-    B --> E2[Profile embedding]
-    E --> F{FAISS<br/>semantic match}
-    E2 --> F
-    F --> T[Top opportunities]
-    T --> R[Retriever<br/>ChromaDB corpus]
-    R --> D[Drafter<br/>multi-LLM router]
-    D --> C[Critic<br/>ATS score]
-    C -- below threshold --> D
-    C -- passes --> OUT[📄 Tailored resume]
-    OUT -. high-scoring .-> R
-```
+- 🌿 [PublicSeva](https://github.com/KalpeshEragi/PublicSeva) — civic issue reporting with Gemini severity scoring
+- 🏋️ [FITFUSION](https://github.com/KalpeshEragi/FITFUSIONN) — Android fitness app with an AI coach and offline-first sync
+- 🚚 **Victor & Co.** — B2B logistics site + automated lead pipeline (Next.js, MongoDB, Vercel Cron)
 
 </details>
 
 ---
 
-## 🧠 Skills — Organized by Domain
+## 📏 Measured Impact
 
-### 🤖 Artificial Intelligence
-
-| Domain | Stack |
-|:--|:--|
-| **Agentic AI** | ![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=flat-square&logo=openai&logoColor=white) ![A2A](https://img.shields.io/badge/A2A_Protocol-4285F4?style=flat-square&logo=google&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Negotiation-7F5AF0?style=flat-square) ![Critic Loops](https://img.shields.io/badge/Drafter→Critic_Loops-00C2A8?style=flat-square) |
-| **RAG & Vector Search** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square) ![Embeddings](https://img.shields.io/badge/SentenceTransformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
-| **LLMs & Providers** | ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![Cerebras](https://img.shields.io/badge/Cerebras-F15A29?style=flat-square) ![Together](https://img.shields.io/badge/Together.ai-0F6FFF?style=flat-square) |
-| **Deep Learning & NLP** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/HF_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) |
-| **Machine Learning & Data** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) ![NetworkX](https://img.shields.io/badge/NetworkX-2C5BB4?style=flat-square) |
-
-### 🛠️ Engineering
-
-<table>
-<tr><td><b>💻 Languages</b></td><td><img src="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,c,php&theme=dark" /></td></tr>
-<tr><td><b>🎨 Frontend</b></td><td><img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css,bootstrap&theme=dark" /></td></tr>
-<tr><td><b>⚙️ Backend & APIs</b></td><td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,flask,prisma&theme=dark" /></td></tr>
-<tr><td><b>🗄️ Databases</b></td><td><img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,firebase&theme=dark" /></td></tr>
-<tr><td><b>📱 Mobile</b></td><td><img src="https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark" /> &nbsp; <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/> <img src="https://img.shields.io/badge/Room_DB-3DDC84?style=flat-square&logo=android&logoColor=white"/></td></tr>
-<tr><td><b>🚢 DevOps & Tools</b></td><td><img src="https://skillicons.dev/icons?i=docker,git,github,vercel,postman,figma&theme=dark" /> &nbsp; <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/></td></tr>
-<tr><td><b>🔐 Auth & Security</b></td><td><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens"/> <img src="https://img.shields.io/badge/OAuth_2.0-EB5424?style=flat-square&logo=auth0&logoColor=white"/> <img src="https://img.shields.io/badge/Passport.js-34E27A?style=flat-square&logo=passport&logoColor=black"/> <img src="https://img.shields.io/badge/bcrypt-338?style=flat-square"/></td></tr>
-</table>
+<p align="center">
+  <img src="assets/impact.svg" width="100%" alt="Animated before/after metrics across MetaPDF, PlaceMates and Patently"/>
+</p>
 
 ---
 
-## 💻 Languages & Contributions
+## 🧠 Skills
+
+| Domain | Stack |
+|:--|:--|
+| **Agentic AI** | ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![CrewAI](https://img.shields.io/badge/CrewAI-FF5A50?style=flat-square) ![smolagents](https://img.shields.io/badge/smolagents-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![A2A](https://img.shields.io/badge/A2A_Protocol-4285F4?style=flat-square&logo=google&logoColor=white) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Negotiation-7F5AF0?style=flat-square) |
+| **RAG & Retrieval** | ![Hybrid](https://img.shields.io/badge/BM25_+_Dense-00C2A8?style=flat-square) ![Rerank](https://img.shields.io/badge/Cross--Encoder_Reranking-302b63?style=flat-square) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SBERT](https://img.shields.io/badge/Sentence--Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
+| **LLM Evaluation** | ![Eval](https://img.shields.io/badge/LLM_Evaluation-2CB67D?style=flat-square) ![Halluc](https://img.shields.io/badge/Hallucination_Detection_(NLI)-FF8906?style=flat-square) ![SHAP](https://img.shields.io/badge/SHAP-7F5AF0?style=flat-square) ![Metrics](https://img.shields.io/badge/MRR_·_Precision@k_·_Recall-302b63?style=flat-square) |
+| **LLMs** | ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![HF](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
+| **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KalpeshEragi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+  <img src="https://skillicons.dev/icons?i=py,java,ts,nextjs,react,tailwind,fastapi,flask,postgres,mongodb,threejs,docker,git,vercel&theme=dark&perline=14" />
+</p>
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KalpeshEragi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="165" src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KalpeshEragi&theme=tokyo-night&hide_border=true&area=true&color=7F5AF0&line=2CB67D&point=ffffff&bg_color=0f0c29" alt="activity graph"/>
 </p>
 
 <!-- Snake animation: generated daily by .github/workflows/snake.yml into the `output` branch -->
@@ -242,7 +172,7 @@ flowchart LR
 ---
 
 <p align="center">
-  <i>"Let the agents negotiate. Keep the math deterministic."</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=A5A3C8&center=true&vCenter=true&width=600&lines=%22LLM+proposes.+Code+validates.+Fallback+keeps+it+correct.%22" alt="quote"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:302b63,100:0f0c29&height=120&section=footer&animation=twinkling" width="100%"/>
