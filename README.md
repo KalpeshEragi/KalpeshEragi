@@ -152,12 +152,7 @@ Multi-agent personal finance platform — bank-statement parsing, India tax engi
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KalpeshEragi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="165" src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KalpeshEragi&theme=tokyo-night&hide_border=true&area=true&color=7F5AF0&line=2CB67D&point=ffffff&bg_color=0f0c29" alt="activity graph"/>
+  <img height="165" src="https://streak-stats.demolab.com/?user=KalpeshEragi&theme=tokyonight&hide_border=true" width="560" />
 </p>
 
 <!-- Snake animation: generated daily by .github/workflows/snake.yml into the `output` branch -->
